@@ -8,6 +8,7 @@ public class AssertTest {
     public void testArrayEquals(){
         byte[] esperado = "teste".getBytes();
         byte[] atual = "teste".getBytes();
+        //Básico de assert
         assertArrayEquals(esperado,atual);
     }
 
