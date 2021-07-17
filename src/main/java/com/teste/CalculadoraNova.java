@@ -6,6 +6,6 @@ public class CalculadoraNova {
         for (int valor: valores){
             soma += valor;
         }
-        return valorA+valorB;
+        return soma;
     }
 }
